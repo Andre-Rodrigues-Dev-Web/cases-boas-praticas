@@ -1,0 +1,24 @@
+//Código feio
+.btn .btn_blue{
+    background-color: blue;
+    border-radius: 0.5em;
+    color: #fff;
+}
+
+//Código bonito
+.btn{
+    &_blue{
+        background-color: blue;
+        border-radius: 0.5em;
+        color: #fff;
+    }
+}
+
+//GLC um código pra lá de elegante
+.btn{
+    border-radius: 0.5em;
+    color: #fff;
+    &_blue{
+        background-color: blue;
+    }
+}
